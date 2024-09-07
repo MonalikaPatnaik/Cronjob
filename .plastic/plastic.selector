@@ -1,0 +1,4 @@
+repository "Fortify@MonalikaPatnaik@cloud"
+  path "/"
+    br "/main"
+    co "/main"
