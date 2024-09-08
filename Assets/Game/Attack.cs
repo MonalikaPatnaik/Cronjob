@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public GameObject Attacker;
-    public GameObject Defender;
+    public GameObject Attacker_Player;
+    public GameObject Defender_Player;
     void Update()
     {
         if (Input.GetKeyDown((KeyCode.Space)))
         { DoAttack(); }
     }
  public void DoAttack(){
-    Attacker.GetComponent<Animator>().SetTrigger("Hook Punch");
+    Attacker_Player.GetComponent<Animator>().SetTrigger("Punch");
 }
 public void Defend(){
 
-    Defender.GetComponent<Animator>().SetTrigger("Right Block (2)");
+    Defender_Player.GetComponent<Animator>().SetTrigger("Block");
 
 }
     }
