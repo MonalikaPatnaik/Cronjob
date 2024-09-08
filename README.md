@@ -12,7 +12,7 @@
 
 2. Open the project in Unity 3D by clicking on ADD button.
 
-3. Navigate to the "Scenes" folder and open the "SampleScene" to access the main game scene.
+3. Navigate to the "Game" folder and open the "SampleScene" to access the main game scene.
 
 4. Set up the desired platform and build settings in Unity.
 
