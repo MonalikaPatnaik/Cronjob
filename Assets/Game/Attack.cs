@@ -19,4 +19,7 @@ public void Defend(){
     Defender_Player.GetComponent<Animator>().SetTrigger("Block");
 
 }
+public void Bodyhit(){
+    Attacker_Player.GetComponent<Animator>().SetTrigger("Hit");
+}
     }
